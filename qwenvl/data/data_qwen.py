@@ -37,8 +37,6 @@ from torch.utils.data import Dataset
 from PIL import Image, ImageOps
 from torchcodec.decoders import VideoDecoder, AudioDecoder
 from joblib import Parallel, delayed, cpu_count
-
-from decord import VideoReader, cpu
 import soundfile as sf
 import transformers
 
